@@ -19,7 +19,7 @@ if Menu=="Dataset":st.caption("From a long time suicide it's been a major proble
 
 # Loading the Data
 if Menu=="Dataset":st.header("First of all lets take a clear view on the Datframe that we have")
-data = pd.read_csv("C:/Users/Aziz/Desktop/HealthCare Analytics/Ind project/master.csv")
+data = pd.read_csv("master.csv")
 if Menu=="Dataset": st.write(data)
 
 if Menu=="Dataset":col1, col2, col3 = st.columns(3)
