@@ -19,7 +19,7 @@ if Menu=="Dataset":st.caption("Suicide is the attempt when someone try to harm h
 
 # Loading the Data
 if Menu=="Dataset":st.header("Take a first look at the data")
-data = pd.read_csv("C:/Users/Aziz/Desktop/HealthCare Analytics/Ind project/master.csv")
+data = pd.read_csv("master.csv")
 if Menu=="Dataset": st.write(data)
 
 if Menu=="Dataset":col1, col2, col3 = st.columns(3)
