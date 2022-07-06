@@ -291,7 +291,7 @@ if Menu=="Recommendations":st.write("5. Trying to analyze data collected from co
 if Menu=="Recommendations":st.write("6. Include more variables in the data for example: ethnicity, if they have mental disorders, having any form of disability or not... ")
 
 if Menu=="Recommendations": st.caption("Thank you")
-
+st.caption("Prepared by Aziz Saliby")
 
 
 #KNN model
